@@ -70,7 +70,6 @@ for i in range(len(matrix)):
             words.append(get_northwest(matrix, i, j))
             words.append(get_north(matrix, i, j))
             words.append(get_northeast(matrix, i, j))
-            print(words)
             count += words.count('XMAS')
             
 print(count)
